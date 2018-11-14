@@ -1,0 +1,31 @@
+.header {
+    margin: 30px;
+    position: relative;
+    >img {
+        height: 89px;
+        width: 231.54px;
+    }
+    >* {
+        display: inline;
+    }
+    >div {
+        position: absolute;
+        right: 0px;
+        top: 36px;
+        * {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            color: black;
+            text-decoration: none;
+            display: inline;
+            padding: 0px 20px 0px 20px;
+            font-size: 13px;
+        }
+        :first-child {
+            padding: 0px 20px 0px 0px !important;
+        }
+        :last-child {
+            padding: 0px 0px 0px 20px !important;
+        }
+    }
+}
