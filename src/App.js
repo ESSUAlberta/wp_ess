@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { HomeScreen, AboutUsScreen } from "./Screens";
+import { HomeScreen, AboutUsScreen, ContactUsScreen } from "./Screens";
 import { Header } from "./Components";
 
 class App extends React.Component {
@@ -11,6 +11,7 @@ class App extends React.Component {
           <Header />
           <Route path="/" component={HomeScreen} exact />
           <Route path="/about-us" component={AboutUsScreen} />
+          <Route path="/contact-us" component={ContactUsScreen} />
         </div>
       </Router>
     );
