@@ -1,4 +1,7 @@
 .aboutUsScreen {
+  > :first-child {
+    margin: 0px 0px 77px 0px !important;
+  }
   > * {
     margin: 0px 48px 48px 18px;
   }
