@@ -13,7 +13,8 @@
         right: 0px;
         top: 36px;
         * {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif !important;
+            font-weight: 500 !important;
             text-transform: uppercase;
             color: black;
             text-decoration: none;
