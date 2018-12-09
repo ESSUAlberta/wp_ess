@@ -6,7 +6,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <img src={`${require("../../assets/ESS_Wordmark.svg")}`}></img>
+                <img alt="ESS" src={`${require("../../assets/ESS_Wordmark.svg")}`}></img>
                 <div>
                     <Link to="/">Home</Link>
                     <Link to="/about-us">About Us</Link>

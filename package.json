@@ -2,6 +2,7 @@
   "name": "wp_ess",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "/beta/",
   "dependencies": {
     "grommet": "^2.0.0-rc",
     "grommet-icons": "^3.2.0",
