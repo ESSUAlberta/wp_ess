@@ -2,8 +2,10 @@ import React from 'react';
 import './style.scss';
 
 class InformativeTextBox extends React.Component {
-    render(){
-        return(
+
+    render() {
+
+        return (
             <div className="informativeTextBox">
                 {this.props.children}
             </div>

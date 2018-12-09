@@ -3,6 +3,10 @@ import { AUCompo, PageTitle } from "../../Components";
 import "./style.scss";
 
 export class AboutUsScreen extends React.Component {
+  componentWillMount() {
+    document.title = "ESS | About Us";
+  }
+
   render() {
     return (
       <div className="aboutUsScreen">
