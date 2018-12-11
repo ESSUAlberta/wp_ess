@@ -1,0 +1,36 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    div {
+        display: flex;
+    }
+    flex-direction: column;
+    padding: 0.3in;
+    >.linksAndContactInfo {
+        flex-direction: row;
+        >div {
+            justify-content: center;
+            flex: 1;
+            >div{
+                flex-direction: column;
+            }
+        }
+        a {
+            font-weight: 300 !important;
+            color: #999999;
+        }
+        p {
+            padding: 0px;
+            color: #999999;
+            margin: 0px;
+            font-weight: 300 !important;
+            font-family: "Open Sans";
+        }
+    }
+    >.copyrightNotice {
+        margin-top: 20px;
+        text-align: center;
+        color: #777777;
+    }
+}
