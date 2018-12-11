@@ -28,11 +28,10 @@ class Footer extends React.Component {
                     <div className="contactInfo">
                         <div>
                             <h3>Contact Information</h3>
-                            <a href="https://www.google.com/maps/place/Donadeo+Innovation+Centre+for+Engineering/">2-300 Donadeo Innovation Centre for Engineering <br />
-                                University of Alberta<br />
+                            <a href="https://www.google.com/maps/place/Donadeo+Innovation+Centre+for+Engineering/">2-300 Donadeo Innovation Centre for Engineering
+                                University of Alberta
                                 Edmonton, AB T6G 1H9
                             </a>
-                            <br />
                             <a href="mailto:info@ess.ualberta.ca">info@ess.ualberta.ca</a>
                             <a href="mailto:president@ess.ualberta.ca">president@ess.ualberta.ca</a>
                         </div>

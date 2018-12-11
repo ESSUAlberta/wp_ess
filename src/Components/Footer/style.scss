@@ -1,5 +1,5 @@
 .footer {
-    background-color: black;
+    background-color: #121212;
     color: white;
     display: flex;
     div {
@@ -10,9 +10,8 @@
     >.linksAndContactInfo {
         flex-direction: row;
         >div {
-            justify-content: center;
             flex: 1;
-            >div{
+            >div {
                 flex-direction: column;
             }
         }
@@ -26,6 +25,14 @@
             margin: 0px;
             font-weight: 300 !important;
             font-family: "Open Sans";
+        }
+        >.socialMediaAccounts {
+            justify-content: center;
+            text-align: center;
+        }
+        >.contactInfo {
+            justify-content: right;
+            text-align: right;
         }
     }
     >.copyrightNotice {
