@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.11.2",
     "grommet": "^2.0.0-rc",
     "grommet-icons": "^3.2.0",
     "node-sass": "^4.10.0",
+    "rc-drawer": "^1.7.6",
     "react": "^16.5.0",
     "react-animated-slider": "^1.1.4",
     "react-dom": "^16.5.0",

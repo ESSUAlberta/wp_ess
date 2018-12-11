@@ -8,7 +8,7 @@ const sliderContent = [
     { title: "Take a Break", image: `${require('../../assets/homeSlider/952.jpg')}`, description: "Engineering can be Stressful. Join us for some board games!", link: null },
     // { title: "Engg Ball", link: "/EnggBall/2018/eventbrite" }
 ]
-//available properties: title, description, link (to + text), image (css type)
+//available properties: title, description, link, image (css type)
 
 export class HomeScreen extends React.Component {
     componentWillMount() {
