@@ -6,7 +6,7 @@ import { Header } from "./Components";
 class App extends React.Component {
   render() {
     return (
-      <Router basename="/beta/">
+      <Router>
         <Switch>
           <Route path="/" component={withHeader(HomeScreen)} exact />
           <Route path="/about-us" exact component={withHeader(AboutUsScreen)} />
