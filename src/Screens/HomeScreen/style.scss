@@ -1,14 +1,35 @@
-.slider {
-    position: absolute !important;
-    top: 153 !important;
-    height: calc(100% - 153px) !important;
-    .sliderSlide {
+.homeContent {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    .bigNewsSlider {
+        height: calc(100vh - 153px);
+        .slider {
+            position: relative !important;
+            height: 100% !important;
+            .sliderSlide {
+                text-align: center;
+                >div {
+                    text-align: center;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(calc(-50% - 76.5px));
+                }
+            }
+        }
+    }
+    .whoWeAre {
+        background-color: #03478E;
+        width: 100vw;
         text-align: center;
-        >div {
-            text-align: center;
+        color: white;
+        padding: 5vh 0px 5vh 0px;
+        >p {
+            margin-top: 2.5vw;
             position: relative;
-            top: 50%;
-            transform: translateY(calc(-50% - 76.5px));
+            width: 60%;
+            left: 50vw;
+            transform: translateX(-50%);
         }
     }
 }
