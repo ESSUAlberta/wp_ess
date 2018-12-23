@@ -1,6 +1,7 @@
+
 import React from 'react';
+import { HomeScreen, AboutUsScreen, ContactUsScreen, Errors } from "./Screens";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HomeScreen, AboutUsScreen, Errors } from "./Screens";
 import { Header, Footer } from "./Components";
 
 class App extends React.Component {
@@ -10,6 +11,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/" component={withHeaderAndFooter(HomeScreen)} exact />
           <Route path="/about-us" exact component={withHeaderAndFooter(AboutUsScreen)} />
+          <Route path="/contact-us" component={withHeaderAndFooter(ContactUsScreen)} />
           <Route component={Errors.Error404} />
         </Switch>
       </Router>
