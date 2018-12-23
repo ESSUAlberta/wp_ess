@@ -1,8 +1,19 @@
 .aboutUsScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   > :first-child {
     margin: 0px 0px 77px 0px !important;
+    width: 100vw !important;
   }
   > * {
     margin: 0px 48px 48px 18px;
+    width: 60vw;
+  }
+  @media only screen and (max-width: 680px) {
+    >*{
+      width: 100vw;
+    }
   }
 }
