@@ -1,11 +1,16 @@
 import React from "react";
-import { AUCompo } from "../../Components";
+import { AUCompo, PageTitle } from "../../Components";
 import "./style.scss";
 
 export class AboutUsScreen extends React.Component {
+  componentWillMount() {
+    document.title = "ESS | About Us";
+  }
+
   render() {
     return (
       <div className="aboutUsScreen">
+        <PageTitle>About Us</PageTitle>
         <AUCompo title="OUR MISSION">
           To promote professional awareness among engineering students by
           encouraging a sense of unity and integrity through the combined

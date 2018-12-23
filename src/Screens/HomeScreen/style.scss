@@ -1,0 +1,38 @@
+.homeContent {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    .bigNewsSlider {
+        height: 60vh;
+        .slider {
+            position: relative !important;
+            height: 100% !important;
+            .sliderSlide {
+                text-align: center;
+                >div {
+                    text-align: center;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-100%);
+                }
+            }
+        }
+    }
+    .whoWeAre {
+        background-color: #03478E;
+        width: 100vw;
+        text-align: center;
+        color: white !important;
+        >h1 {
+            color: white !important;
+        }
+        padding: 5vh 0px 5vh 0px;
+        >p {
+            margin-top: 2.5vw;
+            position: relative;
+            width: 60%;
+            left: 50vw;
+            transform: translateX(-50%);
+        }
+    }
+}
