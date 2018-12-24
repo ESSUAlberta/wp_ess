@@ -44,7 +44,7 @@ class App extends React.Component {
           <Route path="/geer-store/merch" exact component={withHeaderAndFooter(GeerStoreScreen.Merch)} />
           <Route path="/geer-store/locker-rentals" exact component={withHeaderAndFooter(GeerStoreScreen.LockerRentals)} />
 
-          <Route path="/gallery" exact component={withHeaderAndFooter(GalleryScreen)} />
+          <Route path="/gallery" component={withHeaderAndFooter(GalleryScreen)} />
 
           <Route component={Errors.Error404} />
 
@@ -61,6 +61,7 @@ function withHeaderAndFooter(Component) {
         <div
           style={{
             display: "flex",
+            flex: 1,
             flexDirection: "column",
             justifyContent: "space-between",
             minHeight: "100vh"
