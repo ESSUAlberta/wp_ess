@@ -1,4 +1,9 @@
-export { default as HomeScreen } from "./HomeScreen";
-export { default as AboutUsScreen } from "./AboutUsScreen";
-export { default as ContactUsScreen } from "./ContactUsScreen";
+export { default as HomeScreen } from './HomeScreen';
+export { default as AboutUsScreen } from './AboutUsScreen';
+export { default as EventsScreen } from './EventsScreen';
+export { default as GalleryScreen } from './GalleryScreen';
+export { default as GeerStoreScreen } from './GeerStoreScreen';
+export { default as GetInvolvedScreen } from './GetInvolvedScreen';
+export { default as GovernanceScreen } from './GovernanceScreen';
+export { default as ServicesScreen } from './ServicesScreen';
 export { default as Errors } from './Errors';
