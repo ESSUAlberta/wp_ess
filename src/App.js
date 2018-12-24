@@ -29,7 +29,7 @@ class App extends React.Component {
           <Route path="/get-involved/student-project-groups" exact component={withHeaderAndFooter(GetInvolvedScreen.StudentProjectGroups)} />
 
           <Route path="/events" exact component={withHeaderAndFooter(EventsScreen)} />
-          <Route path="/events/confrences" exact component={withHeaderAndFooter(EventsScreen.Confrences)} />
+          <Route path="/events/conferences" exact component={withHeaderAndFooter(EventsScreen.Conferences)} />
           <Route path="/events/events-calendar" exact component={withHeaderAndFooter(EventsScreen.EventsCalendar)} />
 
           <Route path="/services" exact component={withHeaderAndFooter(ServicesScreen)} />

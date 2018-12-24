@@ -21,7 +21,7 @@ This website is built using React/Express/Mongo and is currently live at https:/
   - [ ] First Year Engg Club
 - [ ] Events
   - [ ] Events Calendar
-  - [ ] Confrences
+  - [ ] Conferences
 - [ ] Services
   - [ ] First Year Survival Guide
   - [ ] PASS

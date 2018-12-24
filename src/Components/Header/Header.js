@@ -32,7 +32,7 @@ const getInvolvedLinks = [
 ];
 const eventsLinks = [
     <Menu.Item><Link to="/events/events-calendar">Events Calendar</Link></Menu.Item>,
-    <Menu.Item><Link to="/events/confrences">Confrences</Link></Menu.Item>
+    <Menu.Item><Link to="/events/conferences">Conferences</Link></Menu.Item>
 ];
 const servicesLinks = [
     <Menu.Item><Link to="/services/first-year-survival-guide">First Year Survival Guide</Link></Menu.Item>,

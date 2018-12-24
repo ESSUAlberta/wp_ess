@@ -1,8 +1,8 @@
 import EventsScreen from './EventsScreen';
-import Confrences from "./Confrences";
+import Conferences from "./Conferences";
 import EventsCalendar from './EventsCalendar';
 
-EventsScreen.Confrences = Confrences;
+EventsScreen.Conferences = Conferences;
 EventsScreen.EventsCalendar = EventsCalendar;
 
 export default EventsScreen;
