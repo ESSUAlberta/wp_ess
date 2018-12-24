@@ -125,11 +125,11 @@ class Header extends React.Component {
                         </SubMenu>
                         <SubMenu title="Services">
                             <Menu.Item><Link to="/services">Services</Link></Menu.Item>
-                            <MenuItemGroup>{eventsLinks}</MenuItemGroup>
+                            <MenuItemGroup>{servicesLinks}</MenuItemGroup>
                         </SubMenu>
                         <SubMenu title="Geer Store">
                             <Menu.Item><Link to="/geer-store">GEER Store</Link></Menu.Item>
-                            <MenuItemGroup>{eventsLinks}</MenuItemGroup>
+                            <MenuItemGroup>{geerStoreLinks}</MenuItemGroup>
                         </SubMenu>
                         <Menu.Item><Link to="/gallery">Gallery</Link></Menu.Item>
                     </Menu>

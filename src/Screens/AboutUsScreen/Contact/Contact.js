@@ -13,26 +13,26 @@ export class Contact extends React.Component {
                         University of Alberta
                         <br />
                         Edmonton, AB T6G 1H9
-          </AUCompo>
+                    </AUCompo>
                     <AUCompo title="OFFICE HOURS">
                         Monday – Friday: 9:00am – 4:00pm
                         <br />
                         Saturday – Sunday: Closed
-          </AUCompo>
+                    </AUCompo>
                     <AUCompo title="PHONE">
                         Office: 780.492.6334
                         <br />
                         Fax: 780.492.0500
-          </AUCompo>
+                    </AUCompo>
                     <AUCompo title="EMAIL">
                         info@ess.ualberta.ca
                         <br />
                         esscomm@ualberta.ca
                         <br />
                         vp.external@ess.ualberta.ca
-          </AUCompo>
+                    </AUCompo>
                 </div>
-                <img src={`${require("../../../assets/ContactUs_Map_Screenshot.png")}`} />
+                <img alt="map screenshot" src={`${require("../../../assets/ContactUs_Map_Screenshot.png")}`} />
             </div>
         );
     }
