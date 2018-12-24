@@ -76,7 +76,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="header">
-                <img alt="ESS" src={`${require("../../assets/ESS_Wordmark.svg")}`}></img>
+                <Link to="/"><img alt="ESS" src={`${require("../../assets/ESS_Wordmark.svg")}`}></img></Link>
                 {
                     this.state.isMobile ?
                         <DrawerButton onClick={() => { this.setState({ open: !this.state.open }) }} />
