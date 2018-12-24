@@ -22,7 +22,7 @@ class GalleryScreen extends React.Component {
     render() {
         return (
             <div className="galleryScreen">
-                <Breadcrumb separator=">">
+                <Breadcrumb separator={<img alt=">" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANBAMAAACAxflPAAAAJ1BMVEUAAACMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIzrCJbOAAAADHRSTlMAAQIOHCMmZODv9/12HtN0AAAAKUlEQVQIW2NgYGSAAAsHCB29BEKz7YIKZKML1ExC4UPlYVyYfph5EPMBE6oKHYcV2M8AAAAASUVORK5CYII=" />}>
                     <Breadcrumb.Item href="/gallery"><Icon type="home" /></Breadcrumb.Item>
                     {this.state.crumbs}
                 </Breadcrumb>
