@@ -1,27 +1,20 @@
 .header {
-    font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 400 !important;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  .drawer {
+    height: 89px;
+    width: 231.54px;
+  }
+  * {
+    border-bottom: none !important;
+    color: black !important;
+    font-family: "Montserrat" !important;
     font-weight: 400 !important;
-    margin: 30px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    img {
-        height: 89px;
-        width: 231.54px;
-    }
-    * {
-        border-bottom: none !important;
-        color: black !important;
-        font-family: "Montserrat" !important;
-        font-weight: 400 !important;
-    }
-    .horizontalNavs {
-        display: flex;
-        flex-direction: row;
-        >* {
-            padding: 0px 20px 0px 20px;
-            margin: 20px 0px 20px 0px;
-        }
-    }
+  }
 }
