@@ -33,7 +33,6 @@ class Footer extends React.Component {
                                 Edmonton, AB T6G 1H9
                             </a>
                             <a href="mailto:info@ess.ualberta.ca">info@ess.ualberta.ca</a>
-                            <a href="mailto:president@ess.ualberta.ca">president@ess.ualberta.ca</a>
                         </div>
                     </div>
                 </div>
