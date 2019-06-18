@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles.scss"
+import "./style.scss"
 
 class PageTitle extends React.Component {
     render() {

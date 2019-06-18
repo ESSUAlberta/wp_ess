@@ -46,6 +46,10 @@ const geerStoreLinks = [
     <Menu.Item><Link to="/geer-store/merch">Merch</Link></Menu.Item>,
     <Menu.Item><Link to="/geer-store/locker-rentals">Locker Rentals</Link></Menu.Item>
 ];
+const careerFairLinks = [
+    <Menu.Item><Link to="/career-fair/students">Students</Link></Menu.Item>,
+    <Menu.Item><Link to="/career-fair/employers">Employers</Link></Menu.Item>
+];
 
 function overlayWithLinks(links) { return (<Menu theme={themeChosen}>{links}</Menu>) };
 
@@ -87,7 +91,9 @@ class Header extends React.Component {
 
                                 <Dropdown key="about-us" placement="bottomCenter" overlay={overlayWithLinks(aboutUsLinks)}><Link to="/about-us">About Us</Link></Dropdown>
 
-                                <Dropdown key="governance" placement="bottomCenter" overlay={overlayWithLinks(governanceLinks)}><Link to="/governance">Governance</Link></Dropdown>
+                                <Dropdown key="career-fair" placement="bottomCenter" overlay={overlayWithLinks(careerFairLinks)}><Link to="/career-fair">Career Fair</Link></Dropdown>
+
+                                {/* <Dropdown key="governance" placement="bottomCenter" overlay={overlayWithLinks(governanceLinks)}><Link to="/governance">Governance</Link></Dropdown>
 
                                 <Dropdown key="get-involved" placement="bottomCenter" overlay={overlayWithLinks(getInvolvedLinks)}><Link to="/get-involved">Get Involved</Link></Dropdown>
 
@@ -97,7 +103,7 @@ class Header extends React.Component {
 
                                 <Dropdown key="geer-store" placement="bottomCenter" overlay={overlayWithLinks(geerStoreLinks)}><Link to="/geer-store">GEER Store</Link></Dropdown>
 
-                                <Menu.Item key="gallery"><Link to="/gallery">Gallery</Link></Menu.Item>
+                                <Menu.Item key="gallery"><Link to="/gallery">Gallery</Link></Menu.Item> */}
                             </div>
                         </Menu>
                 }
@@ -111,7 +117,11 @@ class Header extends React.Component {
                             <Menu.Item><Link to="/about-us">About Us</Link></Menu.Item>
                             <MenuItemGroup>{aboutUsLinks}</MenuItemGroup>
                         </SubMenu>
-                        <SubMenu title="Governance">
+                        <SubMenu title="Career Fair">
+                            <Menu.Item><Link to="/career-fair">Career Fair</Link></Menu.Item>
+                            <MenuItemGroup>{careerFairLinks}</MenuItemGroup>
+                        </SubMenu>
+                        {/* <SubMenu title="Governance">
                             <Menu.Item><Link to="/governance">Governance</Link></Menu.Item>
                             <MenuItemGroup>{governanceLinks}</MenuItemGroup>
                         </SubMenu>
@@ -131,7 +141,7 @@ class Header extends React.Component {
                             <Menu.Item><Link to="/geer-store">GEER Store</Link></Menu.Item>
                             <MenuItemGroup>{geerStoreLinks}</MenuItemGroup>
                         </SubMenu>
-                        <Menu.Item><Link to="/gallery">Gallery</Link></Menu.Item>
+                        <Menu.Item><Link to="/gallery">Gallery</Link></Menu.Item> */}
                     </Menu>
                 </Drawer>
             </div>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { AboutUsScreen, Errors, EventsScreen, GalleryScreen, GeerStoreScreen, GetInvolvedScreen, GovernanceScreen, HomeScreen, ServicesScreen } from "./Screens";
+import { AboutUsScreen, Errors, EventsScreen, GalleryScreen, GeerStoreScreen, GetInvolvedScreen, GovernanceScreen, HomeScreen, ServicesScreen, CareerFairScreen } from "./Screens";
 import { Header, Footer } from "./Components";
 
 class App extends React.Component {
@@ -16,6 +16,10 @@ class App extends React.Component {
           <Route path="/about-us/our-team" exact component={withHeaderAndFooter(AboutUsScreen.OurTeam)} />
           <Route path="/about-us/our-affiliates" exact component={withHeaderAndFooter(AboutUsScreen.OurAffiliates)} />
           <Route path="/about-us/contact" exact component={withHeaderAndFooter(AboutUsScreen.Contact)} />
+
+          <Route path="/career-fair" exact component={withHeaderAndFooter(CareerFairScreen)} />
+          <Route path="/career-fair/students" exact component={withHeaderAndFooter(CareerFairScreen.Students)} />
+          <Route path="/career-fair/employers" exact component={withHeaderAndFooter(CareerFairScreen.Employers)} />
 
           <Route path="/governance" exact component={withHeaderAndFooter(GovernanceScreen)} />
           <Route path="/governance/bod-meetings" exact component={withHeaderAndFooter(GovernanceScreen.BoDMeetings)} />
