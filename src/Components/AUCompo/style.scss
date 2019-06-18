@@ -1,0 +1,35 @@
+.aucompo {
+  display: flex;
+  flex-direction: column;
+    .title {
+        font-family: "Montserrat", sans-serif;
+        line-height: 32px;
+        font-size: 20px;
+        color: #03478e;
+    }
+    >* {
+        padding: 5px 0px 5px 30px;
+        font-style: normal;
+        font-weight: normal;
+        letter-spacing: 0.05em;
+    }
+    .content {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #000000;
+        >h2 {
+            margin: 0px;
+            font-weight: bold;
+            line-height: 27px;
+            font-size: 14px;
+        }
+        >p {
+            display: block;
+            margin-top: 0px;
+            margin-bottom: 17px;
+        }
+        >p:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}

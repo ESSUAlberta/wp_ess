@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.11.2",
     "grommet": "^2.0.0-rc",
     "grommet-icons": "^3.2.0",
     "node-sass": "^4.10.0",
+    "rc-drawer": "^1.7.6",
     "react": "^16.5.0",
+    "react-animated-slider": "^1.1.4",
     "react-dom": "^16.5.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.1",
@@ -14,7 +17,9 @@
     "styled-components": "^4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=5001 react-scripts start",
+    "start:production": "npm run build && npm run start:prod",
+    "start:prod": "NODE_ENV=production node server",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
