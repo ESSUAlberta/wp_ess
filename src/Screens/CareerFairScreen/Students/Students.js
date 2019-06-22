@@ -19,21 +19,15 @@ class Students extends React.Component {
                     sub-streams of engineering.
                     <br />
                     <br />
-                    New to this year, by RSVPing on Eventbrite you will be provided with a coloured PRINTED
-                    name tag to wear at the Career Fair. This will help employers identify your discipline and make
-                    you stand-out from the crowd!
-                    <br />
-                    Click here for our Facebook Event
-                    <br />
-                    Click here for our Eventbrite Page
+                    Check out our Facebook Page.
                     <br />
                     <br />
                     To be prepared for this event, attend an Engineering Employment Centre&#39;s &quot;How to Wow at a
                     Career Fair&quot; workshop on January 7th at 5 PM or Jan 8th at 11 AM.
-                    There are limited spots available for the workshop, so register now at <a href="uab.ca/eec">www.uab.ca/eec</a>
+                    There are limited spots available for the workshop, so keep an eye out for it at <a href="https://www.uab.ca/eec">www.uab.ca/eec.</a>
                     <br />
                     <br />
-                    Interested in volunteering for the 2019 ESS Career Fair? Fill out this form!
+                    Interested in volunteering for the 2020 ESS Career Fair? Keep an eye out on this page!
                 </AUCompo>
 
 

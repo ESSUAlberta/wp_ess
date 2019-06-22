@@ -8,7 +8,7 @@ class Employers extends React.Component {
             <div className="careerFairEmployers">
                 <AUCompo title="ESS CAREER FAIR 2020 - INFORMATION FOR EMPLOYERS">
                 The University of Alberta Engineering Students’ Society (ESS) is excited to invite your company
-to our 20th Annual ESS Career Fair on January 8 and 9, 2019.
+to our 20th Annual ESS Career Fair on January 8 and 9, 2020.
                     <br />
                     <br />
                     Over the past 19 years, the student-organized ESS Career Fair has been an incredible success,
