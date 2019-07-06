@@ -1,10 +1,10 @@
-export { default as HomeScreen } from './HomeScreen';
-export { default as AboutUsScreen } from './AboutUsScreen';
-export { default as CareerFairScreen } from './CareerFairScreen';
-export { default as EventsScreen } from './EventsScreen';
-export { default as GalleryScreen } from './GalleryScreen';
-export { default as GeerStoreScreen } from './GeerStoreScreen';
-export { default as GetInvolvedScreen } from './GetInvolvedScreen';
-export { default as GovernanceScreen } from './GovernanceScreen';
-export { default as ServicesScreen } from './ServicesScreen';
-export { default as Errors } from './Errors';
+import './styles.scss'
+
+export { default as AdminRedirectScreen } from './AdminRedirectScreen';
+export { default as AdminLoginScreen } from './AdminLoginScreen';
+export { default as AdminDashboardScreen } from './AdminDashboardScreen';
+export { default as AdminDocumentationScreen } from './AdminDocumentationScreen';
+export { default as AdminUsersScreen } from './AdminUsersScreen';
+export { default as AdminPagesScreen } from './AdminPagesScreen';
+export { default as AdminSettingsScreen } from './AdminSettingsScreen';
+export { default as GenericScreen } from './GenericScreen';
