@@ -1,7 +1,7 @@
-
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { AdminRedirectScreen, AdminLoginScreen, AdminDashboardScreen, /*AdminDocumentationScreen, AdminUsersScreen, AdminPagesScreen, AdminSettingsScreen,*/ GenericScreen } from "./Screens";
+import './Utils'
 
 class App extends React.Component {
   render() {
