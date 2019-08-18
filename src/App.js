@@ -5,6 +5,9 @@ import { AboutUsScreen, Errors, EventsScreen, GalleryScreen, GeerStoreScreen, Ge
 import { Header, Footer } from "./Components";
 
 class App extends React.Component {
+  componentDidMount(){
+    document.title = "ESS"
+  }
   render() {
     return (
       <Router>
