@@ -28,7 +28,7 @@ plans below to find out which booths are available. */}
                     <br />
                     <br />
                     Click 
-                    <a href="https://docs.google.com/spreadsheets/d/1oteGM0j5NwnLrKbmPZ5vwbklYhw8fVCBvb7NCU4ZRfE/edit?usp=sharing"> here </a> 
+                    <a href="https://drive.google.com/file/d/11OpCUcp0tg8kycKbwp-8103Pk8wo9kkk/view?usp=sharing"> here </a> 
                      to download the 2020 ESS Career Fair Invitation Package PDF document. This
 package has more information about our career fair as well as our engineering programs, Co-op
 Program, and the Engineering Employment Centre.
