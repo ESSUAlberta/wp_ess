@@ -24,12 +24,12 @@ that spots fill up fast! Make sure you register your booth as soon as you can!
                     January 8th booths are officially sold out and January 9th booths are going fast! See the floor
 plans below to find out which booths are available. */}
                     <br />
-                    Floor Plan for January 8th, 2020
-                    <br />
-                    Floor Plan for January 9th, 2020
+                    <a href="https://docs.google.com/spreadsheets/d/1oteGM0j5NwnLrKbmPZ5vwbklYhw8fVCBvb7NCU4ZRfE/edit?usp=sharing">Floor Plan</a> for January 8th and January 9th, 2020
                     <br />
                     <br />
-                    Click here to download the 2020 ESS Career Fair Invitation Package PDF document. This
+                    Click 
+                    <a href="https://docs.google.com/spreadsheets/d/1oteGM0j5NwnLrKbmPZ5vwbklYhw8fVCBvb7NCU4ZRfE/edit?usp=sharing"> here </a> 
+                     to download the 2020 ESS Career Fair Invitation Package PDF document. This
 package has more information about our career fair as well as our engineering programs, Co-op
 Program, and the Engineering Employment Centre.
                     <br />

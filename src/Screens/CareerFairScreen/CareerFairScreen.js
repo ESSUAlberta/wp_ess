@@ -23,6 +23,8 @@ export class CareerFairScreen extends React.Component {
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: "1.5em"}}>
           For more information, click the link relavant to you below:
+        </div>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: "1.5em"}}>
           <a href="/career-fair/students">Students</a>
           <a href="/career-fair/employers">Employers</a>
         </div>
