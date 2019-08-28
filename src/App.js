@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { AboutUsScreen, Errors, EventsScreen, GalleryScreen, GeerStoreScreen, GetInvolvedScreen, GovernanceScreen, HomeScreen, ServicesScreen, CareerFairScreen } from "./Screens";
+import { AboutUsScreen, Errors, EventsScreen, GalleryScreen, GeerStoreScreen, GetInvolvedScreen, GovernanceScreen, HomeScreen, ServicesScreen, CareerFairScreen, SponsorsScreen} from "./Screens";
 import { Header, Footer } from "./Components";
 
 class App extends React.Component {
@@ -52,6 +52,8 @@ class App extends React.Component {
           <Route path="/geer-store/locker-rentals" exact component={withHeaderAndFooter(GeerStoreScreen.LockerRentals)} />
 
           <Route path="/gallery" exact component={withHeaderAndFooter(GalleryScreen)} />
+
+          <Route path="/sponsors" exact component={withHeaderAndFooter(SponsorsScreen)} />
 
           <Route component={Errors.Error404} />
 

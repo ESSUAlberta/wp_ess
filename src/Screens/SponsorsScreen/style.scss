@@ -1,0 +1,20 @@
+.careerFairScreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  > * {
+    margin: 0px 48px 48px 18px;
+    width: 60vw;
+  }
+  > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media only screen and (max-width: 680px) {
+    >*{
+      width: 100vw;
+    }
+  }
+}

@@ -93,6 +93,8 @@ class Header extends React.Component {
 
                                 <Dropdown key="career-fair" placement="bottomCenter" overlay={overlayWithLinks(careerFairLinks)}><Link to="/career-fair">Career Fair</Link></Dropdown>
 
+                                <Menu.Item key="sponsors"><Link to="/sponsors">Sponsors</Link></Menu.Item>
+
                                 {/* <Dropdown key="governance" placement="bottomCenter" overlay={overlayWithLinks(governanceLinks)}><Link to="/governance">Governance</Link></Dropdown>
 
                                 <Dropdown key="get-involved" placement="bottomCenter" overlay={overlayWithLinks(getInvolvedLinks)}><Link to="/get-involved">Get Involved</Link></Dropdown>
@@ -120,6 +122,9 @@ class Header extends React.Component {
                         <SubMenu title="Career Fair">
                             <Menu.Item><Link to="/career-fair">Career Fair</Link></Menu.Item>
                             <MenuItemGroup>{careerFairLinks}</MenuItemGroup>
+                        </SubMenu>
+                        <SubMenu title="Sponsors">
+                            <Menu.Item><Link to="/sponsors">Sponsors</Link></Menu.Item>
                         </SubMenu>
                         {/* <SubMenu title="Governance">
                             <Menu.Item><Link to="/governance">Governance</Link></Menu.Item>

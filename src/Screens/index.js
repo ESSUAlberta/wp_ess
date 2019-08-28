@@ -7,4 +7,5 @@ export { default as GeerStoreScreen } from './GeerStoreScreen';
 export { default as GetInvolvedScreen } from './GetInvolvedScreen';
 export { default as GovernanceScreen } from './GovernanceScreen';
 export { default as ServicesScreen } from './ServicesScreen';
+export { default as SponsorsScreen } from './SponsorsScreen';
 export { default as Errors } from './Errors';
