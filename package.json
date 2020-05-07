@@ -6,7 +6,7 @@
     "antd": "3.22.2",
     "grommet": "2.2.0",
     "grommet-icons": "3.2.1",
-    "node-sass": "4.10.0",
+    "node-sass": "4.14.1",
     "rc-drawer": "1.7.6",
     "react": "16.6.3",
     "react-animated-slider": "1.1.4",
